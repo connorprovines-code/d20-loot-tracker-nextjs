@@ -1,30 +1,28 @@
-# Deployment Guide - D20 Loot Tracker
+# Deployment Guide - D20 Loot Tracker Landing Page
 
-## Quick Deploy to Vercel (Recommended)
+This is the **landing page only**. The actual tracker app is deployed separately.
 
-### Option 1: Deploy via Vercel Dashboard (Easiest)
+## 🚀 Quick Deploy to Vercel
 
 1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
 2. Click "Add New..." → "Project"
 3. Import `connorprovines-code/d20-loot-tracker-nextjs`
-4. Configure Environment Variables:
-   - `NEXT_PUBLIC_SUPABASE_URL` = Your Supabase URL
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY` = Your Supabase anon key
-5. Click "Deploy"
+4. Click "Deploy" (no environment variables needed!)
 
-### Option 2: Deploy via Vercel CLI
+## 🌐 Add Custom Domain
 
-```bash
-cd ~/d20-loot-tracker-nextjs
-npx vercel --prod --yes
-```
+1. In Vercel project settings → Domains
+2. Add `d20loottracker.com`
+3. Follow DNS instructions
 
-Then add environment variables in the Vercel dashboard.
+## 🔗 Architecture
 
-## Custom Domain Setup
+- **Landing Page** (this repo): `d20loottracker.com`
+  - Pure marketing/SEO
+  - Static Next.js build
+  - Links to tracker app
 
-Add `d20loottracker.com` in Vercel project settings → Domains
-
-## Supabase Configuration
-
-Add your Vercel URL to Supabase allowed redirect URLs.
+- **Tracker App** (separate repo): `dnd-loot-tracker.vercel.app`
+  - Full application
+  - Supabase backend
+  - Independent deployments
