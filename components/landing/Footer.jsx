@@ -17,7 +17,7 @@ const footerLinks = {
     { label: "GitHub", href: "https://github.com" },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "PrivacyPolicy", isPage: true },
+    { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms of Service", href: "#terms" },
     { label: "Contact", href: "mailto:connorprovines@gmail.com" },
   ],
