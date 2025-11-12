@@ -61,7 +61,7 @@ export default function Hero() {
 
           {/* CTAs - Mobile optimized */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8 animate-slide-up-delay-2 px-4">
-            <a href="/app" className="w-full sm:w-auto">
+            <a href="https://dnd-loot-tracker.vercel.app/" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-semibold rounded-xl shadow-lg hover:shadow-green-500/50 transition-all duration-300 hover:scale-105 w-full"
@@ -116,7 +116,7 @@ export default function Hero() {
                 }} />
 
                 {/* Central "Start Looting" Button - Mobile optimized */}
-                <a href="/app" className="absolute inset-0 flex items-center justify-center z-20 p-4">
+                <a href="https://dnd-loot-tracker.vercel.app/" className="absolute inset-0 flex items-center justify-center z-20 p-4">
                   <div className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 text-white px-6 sm:px-12 py-3 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-lg sm:text-2xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-110 flex items-center gap-2 sm:gap-3">
                     <Play className="w-6 h-6 sm:w-8 sm:h-8 flex-shrink-0" fill="white" />
                     <span className="whitespace-nowrap">Start Looting</span>

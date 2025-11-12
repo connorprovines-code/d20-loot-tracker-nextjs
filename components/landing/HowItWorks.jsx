@@ -75,7 +75,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="/app">
+          <a href="https://dnd-loot-tracker.vercel.app/">
             <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105">
               Start Your First Campaign →
             </button>
