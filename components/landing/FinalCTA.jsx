@@ -37,7 +37,7 @@ export default function FinalCTA() {
           </p>
 
           {/* CTA Button */}
-          <a href="https://dnd-loot-tracker.vercel.app/">
+          <a href="https://app.d20-loot-tracker.com/">
             <Button
               size="lg"
               className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 text-white px-12 py-7 text-xl font-bold rounded-2xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-110"
