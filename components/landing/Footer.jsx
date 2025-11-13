@@ -10,14 +10,13 @@ const footerLinks = {
     { label: "Pricing", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
   ],
-  Resources: [
-    { label: "Documentation", href: "#docs" },
-    { label: "Video Tutorials", href: "#tutorials" },
-    { label: "Support", href: "#support" },
-    { label: "GitHub", href: "https://github.com" },
+  "Game Systems": [
+    { label: "D&D 5e Loot Tracker", href: "/dnd-loot-tracker", isPage: true },
+    { label: "Pathfinder 2e Tracker", href: "/pathfinder-loot-tracker", isPage: true },
+    { label: "All Systems", href: "/" },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Privacy Policy", href: "/privacy", isPage: true },
     { label: "Terms of Service", href: "#terms" },
     { label: "Contact", href: "mailto:connorprovines@gmail.com" },
   ],

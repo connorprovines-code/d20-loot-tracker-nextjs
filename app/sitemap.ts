@@ -9,6 +9,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: 'https://d20-loot-tracker.com/dnd-loot-tracker',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://d20-loot-tracker.com/pathfinder-loot-tracker',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: 'https://d20-loot-tracker.com/privacy',
       lastModified: new Date(),
       changeFrequency: 'yearly',
