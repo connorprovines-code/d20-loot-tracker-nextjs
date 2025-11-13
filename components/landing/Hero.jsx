@@ -75,7 +75,7 @@ export default function Hero() {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-cyan-500 text-cyan-300 hover:bg-cyan-500/10 px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-semibold rounded-xl backdrop-blur-sm w-full sm:w-auto"
+              className="border-2 border-cyan-400 bg-slate-900/80 text-white hover:bg-cyan-500/20 px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-semibold rounded-xl backdrop-blur-sm w-full sm:w-auto shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
               onClick={() => document.getElementById("video-demo")?.scrollIntoView({ behavior: "smooth" })}
             >
               <Play className="w-5 h-5 mr-2 flex-shrink-0" />
