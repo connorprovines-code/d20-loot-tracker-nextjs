@@ -19,7 +19,6 @@ export default function Navigation() {
 
   const navLinks = [
     { label: "Features", href: "#features" },
-    { label: "Pricing", href: "#pricing" },
     { label: "D&D 5e", href: "/dnd-loot-tracker" },
     { label: "Pathfinder", href: "/pathfinder-loot-tracker" },
   ];
