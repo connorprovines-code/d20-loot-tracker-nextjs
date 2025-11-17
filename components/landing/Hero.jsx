@@ -48,17 +48,16 @@ export default function Hero() {
 
           {/* Main heading - SEO optimized */}
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 animate-slide-up leading-tight">
-            Never Lose Track of{" "}
+            The{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              Loot Again
-            </span>
+              D&D Loot Tracker
+            </span>{" "}
+            Your Party Actually Wants to Use
           </h1>
 
           {/* Subheading - SEO optimized with keywords */}
           <p className="text-base sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto animate-slide-up-delay leading-relaxed px-4">
-            Real-time collaborative loot tracking for D&D, Pathfinder, and D20
-            TTRPGs. Manage gold, split treasure, and track inventories across
-            your entire party.
+            The D&D loot tracker built for parties who want to spend less time on bookkeeping and more time playing. Track treasure, split gold, and sync inventories for D&D 5e and Pathfinder.
           </p>
 
           {/* CTAs - Mobile optimized */}
@@ -106,7 +105,7 @@ export default function Hero() {
                 {/* D&D themed background */}
                 <img
                   src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=1200&h=675&fit=crop"
-                  alt="D&D tabletop game session with dice, miniatures, and loot tracking in action"
+                  alt="D&D loot tracker in use during tabletop game session with dice and treasure"
                   className="w-full h-full object-cover rounded-lg opacity-70"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/60 to-slate-900/40" />

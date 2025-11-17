@@ -180,7 +180,7 @@ export default function GuidesHub() {
         <div className="container mx-auto max-w-4xl">
           <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-500/20 rounded-2xl p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Ready to Try the Tracker?
+              Ready to Try the Best D&D Loot Tracker?
             </h2>
             <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
               Free forever. No credit card. 2-minute setup. Works on mobile and desktop.
