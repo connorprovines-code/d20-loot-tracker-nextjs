@@ -15,10 +15,10 @@ const footerLinks = {
     { label: "All Systems", href: "/" },
   ],
   Resources: [
-    { label: "D&D Loot Split Guide", href: "/guides/dnd-loot-split-guide", isPage: true },
-    { label: "Pathfinder Bulk Guide", href: "/guides/pathfinder-2e-bulk-guide", isPage: true },
-    { label: "vs Google Sheets", href: "/vs/google-sheets-loot-tracker", isPage: true },
-    { label: "vs Foundry VTT", href: "/vs/foundry-vtt-loot-tracker", isPage: true },
+    { label: "All Guides", href: "/guides", isPage: true },
+    { label: "Tracking Loot Guide", href: "/guides/tracking-loot-dnd-beginners", isPage: true },
+    { label: "Gold Distribution Tips", href: "/guides/gold-distribution-new-dms", isPage: true },
+    { label: "Party Inventory Guide", href: "/guides/party-inventory-management", isPage: true },
   ],
   Legal: [
     { label: "Privacy Policy", href: "/privacy", isPage: true },

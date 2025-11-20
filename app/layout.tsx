@@ -60,6 +60,100 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "D20 Loot Tracker",
+        "url": "https://d20loottracker.com",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Free real-time collaborative loot tracker for D&D, Pathfinder, and tabletop RPGs. Track gold, split treasure, manage inventories.",
+        "featureList": [
+          "Real-time collaborative tracking",
+          "Automatic gold splitting",
+          "Party inventory management",
+          "Transaction history",
+          "Multi-campaign support",
+          "Cross-platform access"
+        ],
+        "screenshot": "https://d20loottracker.com/og-image.png",
+        "browserRequirements": "Requires JavaScript. Requires HTML5."
+      },
+      {
+        "@type": "Organization",
+        "name": "D20 Loot Tracker",
+        "url": "https://d20loottracker.com",
+        "logo": "https://d20loottracker.com/icon.png",
+        "sameAs": [],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "support@d20loottracker.com",
+          "contactType": "Customer Support"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What games does D20 Loot Tracker work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Any D20-based TTRPG! D&D 5e, Pathfinder 1e/2e, Starfinder, 13th Age, and more. If your game uses loot, gold, and inventories, D20 Loot Tracker will work perfectly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to install anything to use D20 Loot Tracker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nope! D20 Loot Tracker works in any web browser on desktop, tablet, or mobile. No downloads, no installations. Just sign up and start tracking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use D20 Loot Tracker for multiple campaigns?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! Create as many campaigns as you want. Each campaign is completely separate with its own players, loot, and gold. Switch between them instantly from the dashboard."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my campaign data private and secure?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Each campaign is completely isolated and secure. Only players you specifically invite can access your campaign data. We use bank-level encryption and never share your information."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I export my loot tracking data?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Transaction logs and item histories are viewable in-app anytime. CSV export functionality for complete data backups is coming soon based on user feedback."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does D20 Loot Tracker work offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Currently, D20 Loot Tracker requires an internet connection for real-time sync. We're exploring offline mode with sync-when-connected for future updates."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <html lang="en">
       <head>
@@ -76,6 +170,11 @@ export default function RootLayout({
             gtag('config', 'G-R65BC5CLQG');
           `}
         </Script>
+        <Script
+          id="schema-org"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

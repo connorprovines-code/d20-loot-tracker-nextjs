@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "@/components/landing/Navigation";
 import Footer from "@/components/landing/Footer";
+import Breadcrumbs from "@/components/ui/breadcrumbs";
 import {
   Sparkles,
   Shield,
@@ -142,8 +143,16 @@ export default function DnDLootTracker() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-indigo-950 to-slate-900">
       <Navigation />
 
+      <div className="container mx-auto px-4 pt-24 pb-4">
+        <Breadcrumbs
+          items={[
+            { label: "D&D 5e Loot Tracker" }
+          ]}
+        />
+      </div>
+
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden px-4 pt-20">
+      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden px-4 pt-8">
         {/* Animated background */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500 rounded-full blur-3xl" />

@@ -1,4 +1,7 @@
 import React from "react";
+import Navigation from "@/components/landing/Navigation";
+import Footer from "@/components/landing/Footer";
+import Breadcrumbs from "@/components/ui/breadcrumbs";
 import { Shield, Lock, Database, Eye } from "lucide-react";
 
 const securityFeatures = [
@@ -11,8 +14,18 @@ const securityFeatures = [
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-indigo-950">
+      <Navigation />
+
+      <div className="container mx-auto px-4 pt-24 pb-4">
+        <Breadcrumbs
+          items={[
+            { label: "Privacy Policy" }
+          ]}
+        />
+      </div>
+
       {/* Hero Section */}
-      <section className="relative py-20 px-4 overflow-hidden">
+      <section className="relative py-12 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500 rounded-full blur-3xl" />
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl" />
@@ -384,6 +397,8 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

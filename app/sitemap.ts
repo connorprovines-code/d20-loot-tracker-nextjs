@@ -23,17 +23,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://d20-loot-tracker.com/guides',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://d20-loot-tracker.com/guides/dnd-loot-split-guide',
+      url: 'https://d20-loot-tracker.com/guides/tracking-loot-dnd-beginners',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://d20-loot-tracker.com/guides/pathfinder-2e-bulk-guide',
+      url: 'https://d20-loot-tracker.com/guides/gold-distribution-new-dms',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://d20-loot-tracker.com/guides/party-inventory-management',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
