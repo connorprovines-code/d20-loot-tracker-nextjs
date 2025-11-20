@@ -30,6 +30,13 @@ export default function GuidesIndex() {
       href: "/guides/party-inventory-management",
       icon: Users,
       tags: ["Players", "Organization", "Party"]
+    },
+    {
+      title: "Pathfinder 2e Bulk System Explained",
+      description: "Master PF2e's encumbrance system. Learn bulk calculations, capacity limits, and practical management strategies.",
+      href: "/guides/pathfinder-2e-bulk-system",
+      icon: Scroll,
+      tags: ["Pathfinder 2e", "Players", "System Mastery"]
     }
   ];
 

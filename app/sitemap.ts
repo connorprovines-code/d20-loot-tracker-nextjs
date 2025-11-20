@@ -45,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: 'https://d20-loot-tracker.com/guides/pathfinder-2e-bulk-system',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: 'https://d20-loot-tracker.com/vs/google-sheets-loot-tracker',
       lastModified: new Date(),
       changeFrequency: 'monthly',

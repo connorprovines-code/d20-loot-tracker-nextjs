@@ -18,7 +18,7 @@ const footerLinks = {
     { label: "All Guides", href: "/guides", isPage: true },
     { label: "Tracking Loot Guide", href: "/guides/tracking-loot-dnd-beginners", isPage: true },
     { label: "Gold Distribution Tips", href: "/guides/gold-distribution-new-dms", isPage: true },
-    { label: "Party Inventory Guide", href: "/guides/party-inventory-management", isPage: true },
+    { label: "PF2e Bulk System", href: "/guides/pathfinder-2e-bulk-system", isPage: true },
   ],
   Legal: [
     { label: "Privacy Policy", href: "/privacy", isPage: true },
