@@ -25,7 +25,8 @@ export default function TrackingLootGuide() {
         className="mb-8"
       />
 
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+      <div className="bg-slate-900/80 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-8 md:p-12 shadow-2xl">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
         How to Track Loot in D&D: A Beginner's Guide
       </h1>
 
@@ -274,6 +275,7 @@ export default function TrackingLootGuide() {
             </Link>
           </li>
         </ul>
+      </div>
       </div>
     </article>
   );
